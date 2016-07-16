@@ -35,6 +35,7 @@ Node, npm (its package manager) and AngularJS must be installed. All of these ca
 
 After that is installed, we can use a common practice (i.e. to specify all of our app's dependencies in a package.json file), that for this example will be as follows:
 
+##### Contents of package.json for the example app
 ```json
 {
   "name": "angular2-quickstart",
@@ -70,3 +71,9 @@ After that is installed, we can use a common practice (i.e. to specify all of ou
   }
 }
 ```
+We can install everything by running the command-line command: 
+
+npm install
+
+which install all the dependencies we are going to need. If you don't get any errors **in the end** of the installation process, then everything should work properly and we are all set to go.
+
