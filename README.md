@@ -19,6 +19,8 @@ The list is as follows:
 5. Sending emails
 6. Search and filter functionalities within an app, for DB searches for eg (A and N and M as main components)
 7. Sample boilerplate app, created via Expres-Generator that glues all of the above together.
+8. Prepare all the necessary config files for the deployment in Heroku, Digital Ocean and experiment with github CDN as well.
+9. Separate, detailed tutorial on the deployment to an EC2 instance
 
 #### Possible examples of boilerplate apps:
 - A blog
