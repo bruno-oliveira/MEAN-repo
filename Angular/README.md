@@ -11,3 +11,5 @@ With AtScript (syntatic sugar on top of ES6), and Angular 2, an Angular componen
 
 - A component annotation 
 - A component controller
+
+Additionally, we might need to import extra things we will need to use in the component.
