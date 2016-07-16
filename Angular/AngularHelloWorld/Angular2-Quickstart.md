@@ -77,3 +77,9 @@ npm install
 
 which install all the dependencies we are going to need. If you don't get any errors **in the end** of the installation process, then everything should work properly and we are all set to go.
 
+### 2. Creating our first component
+A component manages a view - a piece of the web page where we display information to the user and respond to user feedback.
+
+Technically, a component is a class that controls a view template. We'll write a lot of them as we build Angular apps. 
+
+It's good practice to keep our application code off the root of the application, as such, we shall create a folder named app (refer to the tree structure in the beginning of this document) to host our application code. 
