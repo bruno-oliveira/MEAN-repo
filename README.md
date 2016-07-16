@@ -22,3 +22,5 @@ The list is as follows:
 
 #### Possible examples of boilerplate apps:
 - A blog
+- ToDo List w/ user authetication
+- ...
