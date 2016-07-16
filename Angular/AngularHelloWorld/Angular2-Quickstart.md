@@ -16,4 +16,4 @@ This document aims to provide a useful collection of tricks, tips and good pract
 ├── package.json
 └── styles.css
 ```
-
+The above directory tree structure is the structure of our application with all the needed dependencies installed. It is a basic structure that offers yet, a basic understanding of some of the core Angular 2 principles - **reusability** and **modularity** - as we shall see later in this tutorial.
