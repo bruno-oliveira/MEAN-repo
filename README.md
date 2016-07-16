@@ -21,3 +21,4 @@ The list is as follows:
 7. Sample boilerplate app, created via Expres-Generator that glues all of the above together.
 
 #### Possible examples of boilerplate apps:
+- A blog
