@@ -83,3 +83,14 @@ A component manages a view - a piece of the web page where we display informatio
 Technically, a component is a class that controls a view template. We'll write a lot of them as we build Angular apps. 
 
 It's good practice to keep our application code off the root of the application, as such, we shall create a folder named app (refer to the tree structure in the beginning of this document) to host our application code. 
+
+#### 2.1 The component schema
+When creating our first component, we need to follow (or we should follow) what we define as the **component schema**, which is a simple "skeleton" that comprises the schema:
+
+```javascript
+  app.AppComponent =
+    ng.core.Component({
+    })
+    .Class({
+    });
+```
