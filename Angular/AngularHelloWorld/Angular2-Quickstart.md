@@ -94,3 +94,9 @@ When creating our first component, we need to follow (or we should follow) what 
     .Class({
     });
 ```
+We can see by the "skeleton" above, that we can chain together the Class and Component methods which both belong to the **global Angular core namespace**, ng.core.
+
+Inside the component method, we shall place an object with two properties, called _selector_ and _template_. 
+
+The first one, is responsible to define which will be the HTML tag that we need to use when starting our Angular 2 app.
+
