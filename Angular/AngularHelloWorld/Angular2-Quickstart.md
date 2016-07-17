@@ -103,4 +103,19 @@ The second one, will be responsible to define a template (typically an HTML file
 
 With this knowledge, we can now build our full component:
 
+```javascript
+(function(app) {
+      app.AppComponent =
+              ng.core.Component({
+                        selector: 'my-app',
+                        template: '<h1>My Second Angular 2 App</h1>'
+                                })
+          .Class({
+                    constructor: function() {}
+                                     });
+})(window.app || (window.app = {}));
+```
+
+As we can see, it's very similar to the schema above, completed with the necessary code for the component and class parts.
+
 
