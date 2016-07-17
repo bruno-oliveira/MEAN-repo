@@ -101,7 +101,9 @@ Inside the component method, we shall place an object with two properties, calle
 The first one, is responsible to define which will be the HTML tag that we need to use when starting our Angular 2 app.
 The second one, will be responsible to define a template (typically an HTML file) that will be associated with that component.
 
-With this knowledge, we can now build our full component:
+With this knowledge, we can now build our full component.
+
+#### 2.2 The complete component and some details
 
 ```javascript
 (function(app) {
@@ -117,5 +119,7 @@ With this knowledge, we can now build our full component:
 ```
 
 As we can see, it's very similar to the schema above, completed with the necessary code for the component and class parts.
+
+There are, however, some important details that should be explained or discussed further.
 
 
