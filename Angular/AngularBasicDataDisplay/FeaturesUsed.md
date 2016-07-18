@@ -51,4 +51,6 @@ We use the **export** keyword to denote that we intend to use this definition ou
 
 As this is a very simple app, it will not have **all** the necessary characteristics of a full-blown Angular 2 app, but, some logic can start to be reasoned about. Let's see:
 
-
+- We abstract the data we want to represent and store it in a single typescript file with the name of the class representing the data, **hero.ts** in our example;
+- We then need to import that class into our main component (that controls the UI and guides the user experience), called by convention **app.component.ts**;
+- After we implement our main component and export the class that will define the data to be rendered in the view, we bootstrap the component in the file **main.ts**;
