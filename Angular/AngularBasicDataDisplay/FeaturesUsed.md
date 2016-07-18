@@ -16,5 +16,10 @@ We display a list of "Heroes" on our main app, and in order to do that, we will 
 ├── package.json
 ├── typings.json
 ├── tsconfig.json
+├── systemjs.config.js
 └── styles.css
 ```
+
+As it is possible to see by the file structure, we will be using TypeScript to write our code for this application.
+
+The main difference between using js and ts, is that Angular 2 is (as of July 2016) more oriented towards using TypeScript, which, in turn, compiles to js but allows for a much more readable and clean code structure.
