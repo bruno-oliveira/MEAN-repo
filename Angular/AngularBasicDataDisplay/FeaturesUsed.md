@@ -36,10 +36,13 @@ Our hero will have an id number and a name.
 
 Using TypeScript, we define the class to represent our hero as follows:
 
-```javacript
+```javascript
 export class Hero {
     constructor(
         public id: number,
         public name: string) { }
 }
 ```
+We can see the class definition, the constructor receiving the attributes we have thought about previously, with the types fully declared and some extra syntax, namely, the _export_ keyword.
+
+We use the **export** keyword to denote that we intend to use this definition outside the scope of the hero.ts file. As we do it, we can now import this class into other files, namely, our main component.
