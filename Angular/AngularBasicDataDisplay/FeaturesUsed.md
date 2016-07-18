@@ -26,4 +26,20 @@ The main difference between using js and ts, is that Angular 2 is (as of July 20
 
 It actually affects how an AngularJS App can be structured since it allows for **modularity** by allowing modules to be exported/imported which encourages a modular design and code reuse, which are good practices to have when developing software.
 
+## A first look at TypeScript classes
 
+It is, as we seen, encouraged that applications in AngularJS 2 are designed with **reusability** and **modularity** in mind, and, for that effect, using classes can prove to be useful.
+
+Thinking in OOP terms, a class is a a representation of some concept in the real world. And, in our example, we will define a class to represent a hero.
+
+Our hero will have an id number and a name.
+
+Using TypeScript, we define the class to represent our hero as follows:
+
+```javacript
+export class Hero {
+    constructor(
+        public id: number,
+        public name: string) { }
+}
+```
