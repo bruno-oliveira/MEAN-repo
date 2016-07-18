@@ -4,3 +4,14 @@ In this example, we display some basic data on our web app by using some Angular
 
 We display a list of "Heroes" on our main app, and in order to do that, we will use the following file structure:
 
+```
+.
+├── app
+   ├── app.component.js
+   ├── main.js
+├── bower_components
+├── index.html
+├── node_modules
+├── package.json
+└── styles.css
+```
