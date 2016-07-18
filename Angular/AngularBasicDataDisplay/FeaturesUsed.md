@@ -54,3 +54,5 @@ As this is a very simple app, it will not have **all** the necessary characteris
 - We abstract the data we want to represent and store it in a single typescript file with the name of the class representing the data, **hero.ts** in our example;
 - We then need to import that class into our main component (that controls the UI and guides the user experience), called by convention **app.component.ts**;
 - After we implement our main component and export the class that will define the data to be rendered in the view, we bootstrap the component in the file **main.ts**;
+
+The _bootstrapping_ step is here the "magic" happens...
