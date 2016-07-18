@@ -49,4 +49,6 @@ We use the **export** keyword to denote that we intend to use this definition ou
 
 ## The structure of a simple Angular 2 app
 
-...
+As this is a very simple app, it will not have **all** the necessary characteristics of a full-blown Angular 2 app, but, some logic can start to be reasoned about. Let's see:
+
+
