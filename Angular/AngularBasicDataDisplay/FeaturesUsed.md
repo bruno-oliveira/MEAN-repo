@@ -7,11 +7,14 @@ We display a list of "Heroes" on our main app, and in order to do that, we will 
 ```
 .
 ├── app
-   ├── app.component.js
-   ├── main.js
+   ├── app.component.ts
+   ├── hero.ts
+   ├── main.ts
 ├── bower_components
 ├── index.html
 ├── node_modules
 ├── package.json
+├── typings.json
+├── tsconfig.json
 └── styles.css
 ```
