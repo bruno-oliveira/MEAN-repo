@@ -122,3 +122,5 @@ export class AppComponent {
 Even in our small example, we can immediately see how structuring our files this way can be helpful, one of the most important files being the **main.ts** file.
 
 ### The importance of **main.ts**
+
+The main.ts is, by convention, the file where the bootstrap process is done, and it is isolated from the rest of the code, for maintenance and testing reasons. **It is not possible to test a certain component or service if the bootstrap process is on it, because we want to test a single functionality and the bootstrap process would try to load the app into the browser, which would result in an error**
