@@ -119,4 +119,6 @@ export class AppComponent {
 }
 ```
 
-Even in our small example, we can immediatly 
+Even in our small example, we can immediately see how structuring our files this way can be helpful, one of the most important files being the **main.ts** file.
+
+
