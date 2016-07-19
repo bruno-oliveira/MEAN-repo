@@ -67,4 +67,25 @@ Modules are designed with separation of concerns in mind, and modularity arises 
 
 Let's understand what this means on our simple Hero List application.
 
-Any application in a real-world context, is subject to change and to grow. And that's one of the reasons why **modular design** and **concerns separation** should be the keywords to keep in mind while developing. It's okay to stuff everything in a controller and make it work at first. While it might not be the recommended approach it still allows for some level of adaptation and modularity that is better than no structure at all.
+Any application in a real-world context, is subject to change and to grow. And that's one of the reasons why **modular design** and **concern separation** should be the keywords to keep in mind while developing. It's okay to stuff everything in a controller and make it work at first. While it might not be the recommended approach it still allows for some level of adaptation and modularity that is better than no structure at all. 
+
+However, as both your experience, and codebase, grows, so should your maintenance concerns.
+
+Let's see:
+
+**hero.ts**
+```javascript
+export class Hero {
+    constructor(
+        public id: number,
+        public name: string) { }
+}
+```
+
+**main.ts**
+```javascript
+import { bootstrap } from '@angular/platform-browser-dynamic';
+import { AppComponent } from './app.component';
+bootstrap(AppComponent);
+```
+
