@@ -58,3 +58,6 @@ As this is a very simple app, it will not have **all** the necessary characteris
 The _bootstrapping_ step is here the "magic" happens and its this step that allows the application to start in the browser.
 
 All the previous components, services, functions, etc, should be perfectly correct and without errors in order for the bootstrap process to work. We will analyze the structure in more depth, as well as the bootstrapping process.
+
+## Analysis of the file structure as an overview
+
