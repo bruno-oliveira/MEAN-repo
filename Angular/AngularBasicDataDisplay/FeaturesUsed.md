@@ -61,3 +61,6 @@ All the previous components, services, functions, etc, should be perfectly corre
 
 ## Analysis of the file structure as an overview
 
+One of the most distinctive features of using typescript, is that it allows for modularity by design.
+
+Modules are designed with separation of concerns in mind and modularity arises naturally. Things can be exported/imported into other modules to create reusable components and keeping the application structure clean.
