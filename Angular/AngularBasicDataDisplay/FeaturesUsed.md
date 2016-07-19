@@ -55,4 +55,6 @@ As this is a very simple app, it will not have **all** the necessary characteris
 - We then need to import that class into our main component (that controls the UI and guides the user experience), called by convention **app.component.ts**;
 - After we implement our main component and export the class that will define the data to be rendered in the view, we bootstrap the component in the file **main.ts**;
 
-The _bootstrapping_ step is here the "magic" happens...
+The _bootstrapping_ step is here the "magic" happens and its this step that allows the application to start in the browser.
+
+All the previous components, services, functions, etc, should be perfectly correct and without errors in order for the bootstrap process to work. We will analyze the structure in more depth.
