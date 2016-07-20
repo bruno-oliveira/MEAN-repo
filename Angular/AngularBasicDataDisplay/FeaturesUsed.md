@@ -127,4 +127,4 @@ The main.ts is, by convention, the file where the bootstrap process is done, and
 
 In our example, we simply bootstrap the main component, which is the only one we have, and the application loads.
 
-
+To structure an application with more components, a slightly different structure shall be followed, as we will see in other tutorials.
