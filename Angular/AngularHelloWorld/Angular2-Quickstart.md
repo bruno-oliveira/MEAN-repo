@@ -124,4 +124,4 @@ There are, however, some important details that should be explained or discussed
 
 Firstly, in the second "key/value pair", inside the ng.core.Component, the template pair could be replaced with a fully qualified path for a standalone html file. The reason we keep it there as a sort of _inline_ template, it's mostly because it's a very simple template and it would defeat the purpose of the tutorial to add unecessary files and complexity to this introductory file structure.
 
-...
+Secondly, we wrap the component in what we call an **IIFE**
