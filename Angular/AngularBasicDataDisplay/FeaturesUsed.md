@@ -135,4 +135,8 @@ The biggest advantage in defining a single class per file, comes from the **modu
 
 In this example, if we wanted to create and incorporate a class, let's say, villain, in our app, all we needed to do was create a villain.ts file containing the definition of the villain class, export it, and use it in our main app component, just like we did with the hero class.
 
-If we defined ...
+If we defined multiple classes per file, not only we'd have harder time debugging, the application would lose its modularity as well.
+
+#### Ideal file structure when using multiple components
+
+
