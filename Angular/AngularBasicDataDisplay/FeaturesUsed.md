@@ -139,4 +139,4 @@ If we defined multiple classes per file, not only we'd have harder time debuggin
 
 #### Ideal file structure when using multiple components
 
-
+This topic deserves a separate tutorial and will be discussed further there. Basic idea: Use a main component that aggregates all the other components.
