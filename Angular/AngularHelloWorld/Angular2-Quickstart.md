@@ -125,3 +125,5 @@ There are, however, some important details that should be explained or discussed
 Firstly, in the second "key/value pair", inside the ng.core.Component, the template pair could be replaced with a fully qualified path for a standalone html file. The reason we keep it there as a sort of _inline_ template, it's mostly because it's a very simple template and it would defeat the purpose of the tutorial to add unecessary files and complexity to this introductory file structure.
 
 Secondly, we wrap the component in what we call an **IIFE**, which stands for Immediately Invoked Function Expression, which we then bind to the javascript window object, so that the application can be bootstrapped and started in the browser.
+
+This wrapping process is done so that the global namespace doesn't get polluted with unnecessary contents and to "allow" for some degree of modularity from within a full JS application. Using TypeScript is a much cleaner alternative and takes care of all these problems via component exports/imports.
